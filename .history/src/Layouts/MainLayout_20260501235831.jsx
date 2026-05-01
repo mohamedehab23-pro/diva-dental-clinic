@@ -1,4 +1,4 @@
-import  { useEffect, useState } from 'react'
+import  { useState } from 'react'
 import Footer from '../Components/Footer'
 import HeroPage from '../Pages/HeroPage'
 import Services from '../Pages/Services'
@@ -10,12 +10,8 @@ import Button from '../Components/Button'
 import AboutPage from '../Pages/AboutPage'
 import BeforeAfterPage from '../Pages/BeforeAfterPage'
 import logo from '../assets/logo.jpeg'
-import Aos from 'aos'
-import "aos/dist/aos.css"
+import A
 export  function MainLayout() {
-  useEffect(()=>{
-    Aos.init({duration:"1000"});
-  },[])
 const [darkMode, setDarkMode] = useState( localStorage.getItem('darkmode') === 'true'|| false)
 
   const [navToggle, setNavToggle] = useState(false)
@@ -89,38 +85,15 @@ viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="cursor-po
 
     </div>
 
-<div data-aos="fade-down">
 
      <HeroPage/>
-</div>
-<div data-aos="fade-down">
      <Services/>
-
-</div>
-<div data-aos="fade-down">
     <ReviewsPage/>
-
-</div>
-<div data-aos="fade-down">
     <AboutPage/>
-
-</div>
-<div data-aos="fade-down">
     <WhyUs/>
-
-</div>
-<div data-aos="fade-down">
     <BeforeAfterPage/>
-
-</div>
-<div data-aos="fade-down">
     <Booking/>
-
-</div>
-<div data-aos="fade-down">
     <ContactPage/>
-
-</div>
 
     <Footer/>
     </div>

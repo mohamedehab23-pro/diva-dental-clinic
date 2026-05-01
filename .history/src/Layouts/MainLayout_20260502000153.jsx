@@ -89,35 +89,35 @@ viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="cursor-po
 
     </div>
 
-<div data-aos="fade-down">
+<div data-aos="">
 
      <HeroPage/>
 </div>
-<div data-aos="fade-down">
+<div>
      <Services/>
 
 </div>
-<div data-aos="fade-down">
+<div>
     <ReviewsPage/>
 
 </div>
-<div data-aos="fade-down">
+<div>
     <AboutPage/>
 
 </div>
-<div data-aos="fade-down">
+<div>
     <WhyUs/>
 
 </div>
-<div data-aos="fade-down">
+<div>
     <BeforeAfterPage/>
 
 </div>
-<div data-aos="fade-down">
+<div>
     <Booking/>
 
 </div>
-<div data-aos="fade-down">
+<div>
     <ContactPage/>
 
 </div>
